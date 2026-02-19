@@ -1,0 +1,2 @@
+ALTER TABLE Messages ADD IsEdited BIT NOT NULL DEFAULT 0;
+ALTER TABLE Messages ADD ReplyToMessageId INT NULL;
